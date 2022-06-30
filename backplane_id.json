@@ -1,5 +1,5 @@
 {
-    "DL180Gen10": {
+    "ProLiant DL180 Gen10": {
         "Front_SFF2_1x2": [
             221
         ],
@@ -20,7 +20,7 @@
             221
         ]
     },
-    "DL325Gen10pV2": {
+    "ProLiant DL325 Gen10 Plus v2": {
         "Front_LFF": [
             272
         ],
@@ -34,7 +34,7 @@
             354
         ]
     },
-    "DL325Gen10p": {
+    "ProLiant DL325 Gen10 Plus": {
         "Front_LFF": [
             272
         ],
@@ -47,7 +47,7 @@
             307
         ]
     },
-    "DL325Gen10": {
+    "ProLiant DL325 Gen10": {
         "Front_LFF": [
             222
         ],
@@ -56,7 +56,7 @@
             245
         ]
     },
-    "DL360Gen10p": {
+    "ProLiant DL360 Gen10 Plus": {
         "Front_LFF": [
             272
         ],
@@ -84,7 +84,7 @@
             306
         ]
     },
-    "DL360Gen10": {
+    "ProLiant DL360 Gen10": {
         "Front_SFF8": [
             215
         ],
@@ -100,7 +100,7 @@
             217
         ]
     },
-    "DL380Gen10p": {
+    "ProLiant DL380 Gen10 Plus": {
         "Front_LFF": [
             211
         ],
@@ -133,7 +133,7 @@
             324
         ]
     },
-    "DL380Gen10": {
+    "ProLiant DL380 Gen10": {
         "Front_LFF": [
             211
         ],
@@ -169,7 +169,7 @@
             324
         ]
     },
-    "DL385Gen10pV2": {
+    "ProLiant DL385 Gen10 Plus v2": {
         "Front_LFF": [
             211
         ],
@@ -195,7 +195,7 @@
             324
         ]
     },
-    "DL385Gen10p": {
+    "ProLiant DL385 Gen10 Plus": {
         "Front_LFF": [
             211
         ],
@@ -221,7 +221,7 @@
             324
         ]
     },
-    "DL385Gen10": {
+    "ProLiant DL385 Gen10": {
         "Front_LFF": [
             211
         ],
@@ -245,7 +245,7 @@
             324
         ]
     },
-    "ML350Gen10": {
+    "ProLiant ML350 Gen10": {
         "Front_LFF": [
             227
         ],
@@ -254,7 +254,7 @@
             230
         ]
     },
-    "XL420Gen10": {
+    "ProLiant XL420 Gen10": {
         "Front_SFF": [
             199,
             200,
@@ -287,7 +287,7 @@
             311
         ]
     },
-    "Synergy480Gen10": {
+    "Synergy 480 Gen10": {
         "Front_SFF": [
             174,
             175,
