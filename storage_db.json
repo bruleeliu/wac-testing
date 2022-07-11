@@ -1,0 +1,1882 @@
+{
+    "ProLiant DL180 Gen10": {
+        "Front": {
+          "8LFF_2SFF": {
+            "chasis_img": "assets/images/ProLiant_DL180_Gen10/front/8LFF_2SFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png", "assets/images/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png", "assets/images/Disk_horizontal_SFF_LED.png"],
+            "box_disk_img": [1, 0, 0], // value: index of elements in disk_imgs and disk_led_imgs array
+            "box_capacity": [2, 4, 4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 38, "z": 11 },
+              {/*disk 2*/"x": 111, "z": 11 },
+      
+              /* box 2*/
+              {/*disk 3*/"x": 29, "z": 29 },
+              {/*disk 4*/"x": 128, "z": 29 },
+              {/*disk 5*/"x": 227, "z": 29 },
+              {/*disk 6*/"x": 326, "z": 29 },
+      
+              /* box 3*/
+              {/*disk 7*/"x": 29, "z": 54 },
+              {/*disk 8*/"x": 128, "z": 54 },
+              {/*disk 9*/"x": 227, "z": 54 },
+              {/*disk 10*/"x": 326, "z": 54 }
+            ]
+          },
+      
+          "12LFF": {
+            "chasis_img": "assets/images/ProLiant_DL180_Gen10/front/12LFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [4, 4, 4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 29, "z": 3 },
+              {/*disk 2*/"x": 128, "z": 3 },
+              {/*disk 3*/"x": 227, "z": 3 },
+              {/*disk 4*/"x": 326, "z": 3 },
+      
+              /* box 2*/
+              {/*disk 5*/"x": 29, "z": 29 },
+              {/*disk 6*/"x": 128, "z": 29 },
+              {/*disk 7*/"x": 227, "z": 29 },
+              {/*disk 8*/"x": 326, "z": 29 },
+      
+              /* box 3*/
+              {/*disk 9*/"x": 29, "z": 54 },
+              {/*disk 10*/"x": 128, "z": 54 },
+              {/*disk 11*/"x": 227, "z": 54 },
+              {/*disk 12*/"x": 326, "z": 54 }
+            ]
+          },
+      
+          "24SFF": {
+            "chasis_img": "assets/images/ProLiant_DL180_Gen10/front/24SFF.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png"],
+            "box_capacity": [8, 8, 8],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 30 + 0 * 15.5, "z": 6 },
+              {/*disk 2*/"x": 30 + 1 * 15.5, "z": 6 },
+              {/*disk 3*/"x": 30 + 2 * 15.5, "z": 6 },
+              {/*disk 4*/"x": 30 + 3 * 15.5, "z": 6 },
+              {/*disk 5*/"x": 30 + 4 * 15.5, "z": 6 },
+              {/*disk 6*/"x": 30 + 5 * 15.5, "z": 6 },
+              {/*disk 7*/"x": 30 + 6 * 15.5, "z": 6 },
+              {/*disk 8*/"x": 30 + 7 * 15.5, "z": 6 },
+      
+              /* box 2*/
+              {/*disk 9*/"x": 156 + 0 * 15.5, "z": 6 },
+              {/*disk 10*/"x": 156 + 1 * 15.5, "z": 6 },
+              {/*disk 11*/"x": 156 + 2 * 15.5, "z": 6 },
+              {/*disk 12*/"x": 156 + 3 * 15.5, "z": 6 },
+              {/*disk 13*/"x": 156 + 4 * 15.5, "z": 6 },
+              {/*disk 14*/"x": 156 + 5 * 15.5, "z": 6 },
+              {/*disk 15*/"x": 156 + 6 * 15.5, "z": 6 },
+              {/*disk 16*/"x": 156 + 7 * 15.5, "z": 6 },
+      
+              /* box 3*/
+              {/*disk 17*/"x": 278 + 0 * 15.5, "z": 6 },
+              {/*disk 18*/"x": 278 + 1 * 15.5, "z": 6 },
+              {/*disk 19*/"x": 278 + 2 * 15.5, "z": 6 },
+              {/*disk 20*/"x": 278 + 3 * 15.5, "z": 6 },
+              {/*disk 21*/"x": 278 + 4 * 15.5, "z": 6 },
+              {/*disk 22*/"x": 278 + 5 * 15.5, "z": 6 },
+              {/*disk 23*/"x": 278 + 6 * 15.5, "z": 6 },
+              {/*disk 24*/"x": 278 + 7 * 15.5, "z": 6 }]
+          },
+      
+          "16SFF_2NVME": {
+            "chasis_img": "assets/images/ProLiant_DL180_Gen10/front/16SFF_2NVMe.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png", "assets/images/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png", "assets/images/Disk_horizontal_SFF_LED.png"],
+            "box_disk_img": [1, 0, 0],
+            "box_capacity": [2, 8, 8],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 55, "z": 40 },
+              {/*disk 2*/"x": 55, "z": 55 },
+      
+              /* box 2*/
+              {/*disk 9*/"x": 156 + 0 * 15.5, "z": 6 },
+              {/*disk 10*/"x": 156 + 1 * 15.5, "z": 6 },
+              {/*disk 11*/"x": 156 + 2 * 15.5, "z": 6 },
+              {/*disk 12*/"x": 156 + 3 * 15.5, "z": 6 },
+              {/*disk 13*/"x": 156 + 4 * 15.5, "z": 6 },
+              {/*disk 14*/"x": 156 + 5 * 15.5, "z": 6 },
+              {/*disk 15*/"x": 156 + 6 * 15.5, "z": 6 },
+              {/*disk 16*/"x": 156 + 7 * 15.5, "z": 6 },
+      
+              /* box 3*/
+              {/*disk 17*/"x": 278 + 0 * 15.5, "z": 6 },
+              {/*disk 18*/"x": 278 + 1 * 15.5, "z": 6 },
+              {/*disk 19*/"x": 278 + 2 * 15.5, "z": 6 },
+              {/*disk 20*/"x": 278 + 3 * 15.5, "z": 6 },
+              {/*disk 21*/"x": 278 + 4 * 15.5, "z": 6 },
+              {/*disk 22*/"x": 278 + 5 * 15.5, "z": 6 },
+              {/*disk 23*/"x": 278 + 6 * 15.5, "z": 6 },
+              {/*disk 24*/"x": 278 + 7 * 15.5, "z": 6 }]
+          }
+        },
+        "Rear": {
+      
+          "2SFF": {
+            "chasis_img": "assets/images/ProLiant_DL180_Gen10/rear/2SFF.png",
+            "disk_imgs": ["assets/images/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_horizontal_SFF_LED.png"],
+            "box_capacity": [2],
+            "expander_bay_number": {/* todo */ },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 4*/
+              {/*disk 1*/"x": 262, "z": 20 },
+              {/*disk 2*/"x": 337, "z": 20 }
+            ]
+          }
+        },
+        "External": {}
+    },
+    "ProLiant DL325 Gen10 Plus v2": {
+        "Front": {
+          "4LFF": {
+            "chasis_img": "assets/images/ProLiant_DL325_Gen10/front/4LFF.png",
+            "disk_imgs": ["assets/images/ProLiant_DL325_Gen10/Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_DL325_Gen10/Disk_LFF_LED.png"],
+            "box_capacity": [4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 42, "z": 22 },
+              {/*disk 2*/"x": 184, "z": 22 },
+              {/*disk 3*/"x": 326, "z": 22 },
+              {/*disk 4*/"x": 468, "z": 22 }
+            ]
+          },
+      
+          "8SFF_2SFF": {
+            "chasis_img": "assets/images/ProLiant_DL325_Gen10/front/8SFF_2SFF.png",
+            "disk_imgs": ["assets/images/ProLiant_DL325_Gen10/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_DL325_Gen10/Disk_horizontal_SFF_LED.png"],
+            "box_capacity": [8, 2],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 44 + 0 * 106, "z": 11 },
+              {/*disk 2*/"x": 44 + 0 * 106, "z": 35 },
+              {/*disk 3*/"x": 44 + 1 * 106, "z": 11 },
+              {/*disk 4*/"x": 44 + 1 * 106, "z": 35 },
+              {/*disk 5*/"x": 44 + 2 * 106, "z": 11 },
+              {/*disk 6*/"x": 44 + 2 * 106, "z": 35 },
+              {/*disk 7*/"x": 44 + 3 * 106, "z": 35 },
+              {/*disk 8*/"x": 44 + 4 * 106, "z": 35 },
+      
+              /*box 2*/
+              {/*disk 9*/ "x": 44 + 3 * 106, "z": 11 },
+              {/*disk 10*/"x": 44 + 4 * 106, "z": 11 }
+            ]
+          }
+        },
+        "Rear": {},
+        "External": {}
+    },
+    "ProLiant DL325 Gen10 Plus": {
+        "Front": {
+          "4LFF": {
+            "chasis_img": "assets/images/ProLiant_DL325_Gen10/front/4LFF.png",
+            "disk_imgs": ["assets/images/ProLiant_DL325_Gen10/Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_DL325_Gen10/Disk_LFF_LED.png"],
+            "box_capacity": [4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 42, "z": 22 },
+              {/*disk 2*/"x": 184, "z": 22 },
+              {/*disk 3*/"x": 326, "z": 22 },
+              {/*disk 4*/"x": 468, "z": 22 },
+            ]
+          },
+      
+          "8SFF_2SFF": {
+            "chasis_img": "assets/images/ProLiant_DL325_Gen10/front/8SFF_2SFF.png",
+            "disk_imgs": ["assets/images/ProLiant_DL325_Gen10/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_DL325_Gen10/Disk_horizontal_SFF_LED.png"],
+            "box_capacity": [8, 2],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 44 + 0 * 106, "z": 11 },
+              {/*disk 2*/"x": 44 + 0 * 106, "z": 35 },
+              {/*disk 3*/"x": 44 + 1 * 106, "z": 11 },
+              {/*disk 4*/"x": 44 + 1 * 106, "z": 35 },
+              {/*disk 5*/"x": 44 + 2 * 106, "z": 11 },
+              {/*disk 6*/"x": 44 + 2 * 106, "z": 35 },
+              {/*disk 7*/"x": 44 + 3 * 106, "z": 35 },
+              {/*disk 8*/"x": 44 + 4 * 106, "z": 35 },
+      
+              /*box 2*/
+              {/*disk 9*/ "x": 44 + 3 * 106, "z": 11 },
+              {/*disk 10*/"x": 44 + 4 * 106, "z": 11 }
+            ]
+          }
+        },
+        "Rear": {},
+        "External": {}
+    },
+    "ProLiant DL325 Gen10": {
+        "Front": {
+          "4LFF": {
+            "chasis_img": "assets/images/ProLiant_DL325_Gen10/front/4LFF.png",
+            "disk_imgs": ["assets/images/ProLiant_DL325_Gen10/Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_DL325_Gen10/Disk_LFF_LED.png"],
+            "box_capacity": [4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 42, "z": 22 },
+              {/*disk 2*/"x": 184, "z": 22 },
+              {/*disk 3*/"x": 326, "z": 22 },
+              {/*disk 4*/"x": 468, "z": 22 }
+            ]
+          },
+      
+          "8SFF_2SFF": {
+            "chasis_img": "assets/images/ProLiant_DL325_Gen10/front/8SFF_2SFF.png",
+            "disk_imgs": ["assets/images/ProLiant_DL325_Gen10/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_DL325_Gen10/Disk_horizontal_SFF_LED.png"],
+            "box_capacity": [8, 2],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 44 + 0 * 106, "z": 11 },
+              {/*disk 2*/"x": 44 + 0 * 106, "z": 35 },
+              {/*disk 3*/"x": 44 + 1 * 106, "z": 11 },
+              {/*disk 4*/"x": 44 + 1 * 106, "z": 35 },
+              {/*disk 5*/"x": 44 + 2 * 106, "z": 11 },
+              {/*disk 6*/"x": 44 + 2 * 106, "z": 35 },
+              {/*disk 7*/"x": 44 + 3 * 106, "z": 35 },
+              {/*disk 8*/"x": 44 + 4 * 106, "z": 35 },
+      
+              /*box 2*/
+              {/*disk 9*/ "x": 44 + 3 * 106, "z": 11 },
+              {/*disk 10*/"x": 44 + 4 * 106, "z": 11 }
+            ]
+          }
+        },
+        "Rear": {},
+        "External": {}},
+    "ProLiant DL360 Gen10 Plus": {
+        "Front": {
+          "4LFF": {
+            "chasis_img": "assets/images/ProLiant_DL360_Gen10/front/4LFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 30, "z": 14 },
+              {/*disk 2*/"x": 129, "z": 14 },
+              {/*disk 3*/"x": 228, "z": 14 },
+              {/*disk 4*/"x": 327, "z": 14 }
+            ]
+          },
+      
+          "8SFF": {
+            "chasis_img": "assets/images/ProLiant_DL360_Gen10/front/8.png",
+            "disk_imgs": ["assets/images/ProLiant_DL360_Gen10/SAS.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_DL360_Gen10/SAS_LED.png"],
+            "box_capacity": [8],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 32 + 0 * 75, "z": 7 },
+              {/*disk 2*/"x": 32 + 0 * 75, "z": 24 },
+              {/*disk 3*/"x": 32 + 1 * 75, "z": 7 },
+              {/*disk 4*/"x": 32 + 1 * 75, "z": 24 },
+              {/*disk 5*/"x": 32 + 2 * 75, "z": 7 },
+              {/*disk 6*/"x": 32 + 2 * 75, "z": 24 },
+              {/*disk 7*/"x": 32 + 3 * 75, "z": 24 },
+              {/*disk 8*/"x": 32 + 4 * 75, "z": 24 }
+            ]
+          },
+      
+          "8SFF_2SFF": {
+            // 8 SFF with options supporting: +2 SFF or 2 NVMe or 2 Dual uFF (4x M.2 cartridges)
+            "chasis_img": "assets/images/ProLiant_DL360_Gen10/front/8+2SFF.png",
+            "disk_imgs": ["assets/images/ProLiant_DL360_Gen10/SAS.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_DL360_Gen10/SAS_LED.png"],
+            "box_capacity": [8, 2],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 32 + 0 * 75, "z": 7 },
+              {/*disk 2*/"x": 32 + 0 * 75, "z": 24 },
+              {/*disk 3*/"x": 32 + 1 * 75, "z": 7 },
+              {/*disk 4*/"x": 32 + 1 * 75, "z": 24 },
+              {/*disk 5*/"x": 32 + 2 * 75, "z": 7 },
+              {/*disk 6*/"x": 32 + 2 * 75, "z": 24 },
+              {/*disk 7*/"x": 32 + 3 * 75, "z": 24 },
+              {/*disk 8*/"x": 32 + 4 * 75, "z": 24 },
+      
+              /* box 2*/
+              {/*disk 9*/"x": 32 + 3 * 75, "z": 7 },
+              {/*disk 10*/"x": 32 + 4 * 75, "z": 7 }
+            ]
+          },
+      
+          "10SFF": {
+            // 10 SFF NVMe Premium
+            "chasis_img": "assets/images/ProLiant_DL360_Gen10/front/10SFF.png",
+            "disk_imgs": ["assets/images/ProLiant_DL360_Gen10/NVMe.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_DL360_Gen10/NVMe_LED.png"],
+            "box_capacity": [10],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 32 + 0 * 75, "z": 7 },
+              {/*disk 2*/"x": 32 + 0 * 75, "z": 24 },
+              {/*disk 3*/"x": 32 + 1 * 75, "z": 7 },
+              {/*disk 4*/"x": 32 + 1 * 75, "z": 24 },
+              {/*disk 5*/"x": 32 + 2 * 75, "z": 7 },
+              {/*disk 6*/"x": 32 + 2 * 75, "z": 24 },
+              {/*disk 7*/"x": 32 + 3 * 75, "z": 7 },
+              {/*disk 8*/"x": 32 + 3 * 75, "z": 24 },
+              {/*disk 9*/"x": 32 + 4 * 75, "z": 7 },
+              {/*disk 10*/"x": 32 + 4 * 75, "z": 24 }
+            ]
+          }
+        },
+        "Rear": {
+          "1SFF": {
+            "chasis_img": "assets/images/ProLiant_DL360_Gen10/rear/1SFF.png",
+            "disk_imgs": ["assets/images/ProLiant_DL360_Gen10/SAS_rear.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_DL360_Gen10/SAS_rear_LED.png"],
+            "box_capacity": [1],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 2 or 3*/
+              {/*disk 1*/"x": 18, "z": 3 }
+            ]
+          }
+        },
+        "External": {}
+    },
+    "ProLiant DL360 Gen10": {
+        "Front": {
+          "4LFF": {
+            "chasis_img": "assets/images/ProLiant_DL360_Gen10/front/4LFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 30, "z": 14 },
+              {/*disk 2*/"x": 129, "z": 14 },
+              {/*disk 3*/"x": 228, "z": 14 },
+              {/*disk 4*/"x": 327, "z": 14 }
+            ]
+          },
+      
+          "8SFF": {
+            "chasis_img": "assets/images/ProLiant_DL360_Gen10/front/8.png",
+            "disk_imgs": ["assets/images/ProLiant_DL360_Gen10/SAS.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_DL360_Gen10/SAS_LED.png"],
+            "box_capacity": [8],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 32 + 0 * 75, "z": 7 },
+              {/*disk 2*/"x": 32 + 0 * 75, "z": 24 },
+              {/*disk 3*/"x": 32 + 1 * 75, "z": 7 },
+              {/*disk 4*/"x": 32 + 1 * 75, "z": 24 },
+              {/*disk 5*/"x": 32 + 2 * 75, "z": 7 },
+              {/*disk 6*/"x": 32 + 2 * 75, "z": 24 },
+              {/*disk 7*/"x": 32 + 3 * 75, "z": 24 },
+              {/*disk 8*/"x": 32 + 4 * 75, "z": 24 }
+            ]
+          },
+      
+          "8SFF_2SFF": {
+            // 8 SFF with options supporting: +2 SFF or 2 NVMe or 2 Dual uFF (4x M.2 cartridges)
+            "chasis_img": "assets/images/ProLiant_DL360_Gen10/front/8+2SFF.png",
+            "disk_imgs": ["assets/images/ProLiant_DL360_Gen10/SAS.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_DL360_Gen10/SAS_LED.png"],
+            "box_capacity": [8, 2],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 32 + 0 * 75, "z": 7 },
+              {/*disk 2*/"x": 32 + 0 * 75, "z": 24 },
+              {/*disk 3*/"x": 32 + 1 * 75, "z": 7 },
+              {/*disk 4*/"x": 32 + 1 * 75, "z": 24 },
+              {/*disk 5*/"x": 32 + 2 * 75, "z": 7 },
+              {/*disk 6*/"x": 32 + 2 * 75, "z": 24 },
+              {/*disk 7*/"x": 32 + 3 * 75, "z": 24 },
+              {/*disk 8*/"x": 32 + 4 * 75, "z": 24 },
+      
+              /* box 2*/
+              {/*disk 9*/"x": 32 + 3 * 75, "z": 7 },
+              {/*disk 10*/"x": 32 + 4 * 75, "z": 7 },
+            ]
+          },
+      
+          "10SFF": {
+            // 10 SFF NVMe Premium
+            "chasis_img": "assets/images/ProLiant_DL360_Gen10/front/10SFF.png",
+            "disk_imgs": ["assets/images/ProLiant_DL360_Gen10/NVMe.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_DL360_Gen10/NVMe_LED.png"],
+            "box_capacity": [10],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 32 + 0 * 75, "z": 7 },
+              {/*disk 2*/"x": 32 + 0 * 75, "z": 24 },
+              {/*disk 3*/"x": 32 + 1 * 75, "z": 7 },
+              {/*disk 4*/"x": 32 + 1 * 75, "z": 24 },
+              {/*disk 5*/"x": 32 + 2 * 75, "z": 7 },
+              {/*disk 6*/"x": 32 + 2 * 75, "z": 24 },
+              {/*disk 7*/"x": 32 + 3 * 75, "z": 7 },
+              {/*disk 8*/"x": 32 + 3 * 75, "z": 24 },
+              {/*disk 9*/"x": 32 + 4 * 75, "z": 7 },
+              {/*disk 10*/"x": 32 + 4 * 75, "z": 24 },
+            ]
+          }
+        },
+        "Rear": {
+          "1SFF": {
+            "chasis_img": "assets/images/ProLiant_DL360_Gen10/rear/1SFF.png",
+            "disk_imgs": ["assets/images/ProLiant_DL360_Gen10/SAS_rear.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_DL360_Gen10/SAS_rear_LED.png"],
+            "box_capacity": [1],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 2 or 3*/
+              {/*disk 1*/"x": 18, "z": 3 },
+            ]
+          }
+        },
+        "External": {}
+    },
+    "ProLiant DL380 Gen10 Plus": {
+        "Front": {
+          "8LFF_2SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/8LFF_2SFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"], // santino TODO: support both LFF & SFF disk image
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [2, 4, 4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 36, "z": 11 },
+              {/*disk 2*/"x": 111, "z": 11 },
+      
+              /* box 2*/
+              {/*disk 3*/"x": 29, "z": 29 },
+              {/*disk 4*/"x": 128, "z": 29 },
+              {/*disk 5*/"x": 227, "z": 29 },
+              {/*disk 6*/"x": 326, "z": 29 },
+      
+              /* box 3*/
+              {/*disk 7*/"x": 29, "z": 54 },
+              {/*disk 8*/"x": 128, "z": 54 },
+              {/*disk 9*/"x": 227, "z": 54 },
+              {/*disk 10*/"x": 326, "z": 54 },
+            ]
+          },
+      
+          "12LFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/12LFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [4, 4, 4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 29, "z": 3 },
+              {/*disk 2*/"x": 128, "z": 3 },
+              {/*disk 3*/"x": 227, "z": 3 },
+              {/*disk 4*/"x": 326, "z": 3 },
+      
+              /* box 2*/
+              {/*disk 5*/"x": 29, "z": 29 },
+              {/*disk 6*/"x": 128, "z": 29 },
+              {/*disk 7*/"x": 227, "z": 29 },
+              {/*disk 8*/"x": 326, "z": 29 },
+      
+              /* box 3*/
+              {/*disk 9*/"x": 29, "z": 54 },
+              {/*disk 10*/"x": 128, "z": 54 },
+              {/*disk 11*/"x": 227, "z": 54 },
+              {/*disk 12*/"x": 326, "z": 54 },
+            ]
+          },
+      
+          "24SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/24SFF.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png"],
+            "box_capacity": [8, 8, 8],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 30 + 0 * 15.5, "z": 6 },
+              {/*disk 2*/"x": 30 + 1 * 15.5, "z": 6 },
+              {/*disk 3*/"x": 30 + 2 * 15.5, "z": 6 },
+              {/*disk 4*/"x": 30 + 3 * 15.5, "z": 6 },
+              {/*disk 5*/"x": 30 + 4 * 15.5, "z": 6 },
+              {/*disk 6*/"x": 30 + 5 * 15.5, "z": 6 },
+              {/*disk 7*/"x": 30 + 6 * 15.5, "z": 6 },
+              {/*disk 8*/"x": 30 + 7 * 15.5, "z": 6 },
+      
+              /* box 2*/
+              {/*disk 9*/"x": 156 + 0 * 15.5, "z": 6 },
+              {/*disk 10*/"x": 156 + 1 * 15.5, "z": 6 },
+              {/*disk 11*/"x": 156 + 2 * 15.5, "z": 6 },
+              {/*disk 12*/"x": 156 + 3 * 15.5, "z": 6 },
+              {/*disk 13*/"x": 156 + 4 * 15.5, "z": 6 },
+              {/*disk 14*/"x": 156 + 5 * 15.5, "z": 6 },
+              {/*disk 15*/"x": 156 + 6 * 15.5, "z": 6 },
+              {/*disk 16*/"x": 156 + 7 * 15.5, "z": 6 },
+      
+              /* box 3*/
+              {/*disk 17*/"x": 278 + 0 * 15.5, "z": 6 },
+              {/*disk 18*/"x": 278 + 1 * 15.5, "z": 6 },
+              {/*disk 19*/"x": 278 + 2 * 15.5, "z": 6 },
+              {/*disk 20*/"x": 278 + 3 * 15.5, "z": 6 },
+              {/*disk 21*/"x": 278 + 4 * 15.5, "z": 6 },
+              {/*disk 22*/"x": 278 + 5 * 15.5, "z": 6 },
+              {/*disk 23*/"x": 278 + 6 * 15.5, "z": 6 },
+              {/*disk 24*/"x": 278 + 7 * 15.5, "z": 6 }]
+          },
+      
+          "16SFF_2NVME": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/16SFF_2NVMe.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png", "assets/images/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png", "assets/images/Disk_horizontal_SFF_LED.png"],
+            "box_disk_img": [1, 0, 0],
+            "box_capacity": [2, 8, 8],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 55, "z": 40 },
+              {/*disk 2*/"x": 55, "z": 55 },
+      
+              /* box 2*/
+              {/*disk 9*/"x": 156 + 0 * 15.5, "z": 6 },
+              {/*disk 10*/"x": 156 + 1 * 15.5, "z": 6 },
+              {/*disk 11*/"x": 156 + 2 * 15.5, "z": 6 },
+              {/*disk 12*/"x": 156 + 3 * 15.5, "z": 6 },
+              {/*disk 13*/"x": 156 + 4 * 15.5, "z": 6 },
+              {/*disk 14*/"x": 156 + 5 * 15.5, "z": 6 },
+              {/*disk 15*/"x": 156 + 6 * 15.5, "z": 6 },
+              {/*disk 16*/"x": 156 + 7 * 15.5, "z": 6 },
+      
+              /* box 3*/
+              {/*disk 17*/"x": 278 + 0 * 15.5, "z": 6 },
+              {/*disk 18*/"x": 278 + 1 * 15.5, "z": 6 },
+              {/*disk 19*/"x": 278 + 2 * 15.5, "z": 6 },
+              {/*disk 20*/"x": 278 + 3 * 15.5, "z": 6 },
+              {/*disk 21*/"x": 278 + 4 * 15.5, "z": 6 },
+              {/*disk 22*/"x": 278 + 5 * 15.5, "z": 6 },
+              {/*disk 23*/"x": 278 + 6 * 15.5, "z": 6 },
+              {/*disk 24*/"x": 278 + 7 * 15.5, "z": 6 }]
+          }
+        },
+        "Rear": {
+          "2SFF_3LFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/2SFF_3LFF.png",
+            "disk_imgs": [], // santino TODO: support both LFF & SFF disk image
+            // melody todo: find SFF and LFF disk image
+            "disk_led_imgs": [], // melody todo: add led image for LFF and SFF
+            "box_capacity": [2, 0, 3], // box 4 for 2 SFF, no box 5, box 6 for 3 LFF
+            "expander_bay_number": {/* santino todo */ },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 4*/
+              {/*disk 1*/"x": 36, "z": 8 },
+              {/*disk 2*/"x": 36, "z": 25 },
+      
+              /* box 6*/
+              {/*disk 3*/"x": 166, "z": 9 },
+              {/*disk 4*/"x": 166, "z": 37 },
+              {/*disk 5*/"x": 291, "z": 9 },
+            ]
+          },
+      
+          "2SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/2SFF.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png"],
+            "box_capacity": [0, 0, 2],
+            "expander_bay_number": {/* todo */ },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 6*/
+              {/*disk 5*/"x": 359, "z": 7 },
+              {/*disk 6*/"x": 359, "z": 24 }
+            ]
+          },
+      
+          "3LFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/3LFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [0, 0, 3], /* santino todo */
+            "expander_bay_number": {/* santino todo */ },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 6*/
+              {/*disk 1*/"x": 166, "z": 9 },
+              {/*disk 2*/"x": 166, "z": 37 },
+              {/*disk 3*/"x": 291, "z": 9 },
+            ]
+          },
+      
+          "6SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/6SFF.png",
+            "disk_imgs": ["assets/images/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_horizontal_SFF_LED.png"],
+            "box_capacity": [2, 2, 2],
+            "expander_bay_number": {
+              "12LFF": [-1, 17, 19, 21, 23, 25, 27],
+              "24SFF": [-1, 25, 26, 27, 28, 29, 30]
+            },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 4*/
+              {/*disk 1*/"x": 37, "z": 9 },
+              {/*disk 2*/"x": 37, "z": 25 },
+      
+              /* box 5*/
+              {/*disk 3*/"x": 179, "z": 9 },
+              {/*disk 4*/"x": 179, "z": 25 },
+      
+              /* box 6*/
+              {/*disk 5*/"x": 359, "z": 7 },
+              {/*disk 6*/"x": 359, "z": 24 }
+            ]
+          },
+      
+        },
+        "External": {}
+    },
+    "ProLiant DL380 Gen10": {
+        "Front": {
+          "8LFF_2SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/8LFF_2SFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"], // santino TODO: support both LFF & SFF disk image
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [2, 4, 4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 36, "z": 11 },
+              {/*disk 2*/"x": 111, "z": 11 },
+      
+              /* box 2*/
+              {/*disk 3*/"x": 29, "z": 29 },
+              {/*disk 4*/"x": 128, "z": 29 },
+              {/*disk 5*/"x": 227, "z": 29 },
+              {/*disk 6*/"x": 326, "z": 29 },
+      
+              /* box 3*/
+              {/*disk 7*/"x": 29, "z": 54 },
+              {/*disk 8*/"x": 128, "z": 54 },
+              {/*disk 9*/"x": 227, "z": 54 },
+              {/*disk 10*/"x": 326, "z": 54 },
+            ]
+          },
+      
+          "12LFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/12LFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [4, 4, 4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 29, "z": 3 },
+              {/*disk 2*/"x": 128, "z": 3 },
+              {/*disk 3*/"x": 227, "z": 3 },
+              {/*disk 4*/"x": 326, "z": 3 },
+      
+              /* box 2*/
+              {/*disk 5*/"x": 29, "z": 29 },
+              {/*disk 6*/"x": 128, "z": 29 },
+              {/*disk 7*/"x": 227, "z": 29 },
+              {/*disk 8*/"x": 326, "z": 29 },
+      
+              /* box 3*/
+              {/*disk 9*/"x": 29, "z": 54 },
+              {/*disk 10*/"x": 128, "z": 54 },
+              {/*disk 11*/"x": 227, "z": 54 },
+              {/*disk 12*/"x": 326, "z": 54 },
+            ]
+          },
+      
+          "24SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/24SFF.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png"],
+            "box_capacity": [8, 8, 8],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 30 + 0 * 15.5, "z": 6 },
+              {/*disk 2*/"x": 30 + 1 * 15.5, "z": 6 },
+              {/*disk 3*/"x": 30 + 2 * 15.5, "z": 6 },
+              {/*disk 4*/"x": 30 + 3 * 15.5, "z": 6 },
+              {/*disk 5*/"x": 30 + 4 * 15.5, "z": 6 },
+              {/*disk 6*/"x": 30 + 5 * 15.5, "z": 6 },
+              {/*disk 7*/"x": 30 + 6 * 15.5, "z": 6 },
+              {/*disk 8*/"x": 30 + 7 * 15.5, "z": 6 },
+      
+              /* box 2*/
+              {/*disk 9*/"x": 156 + 0 * 15.5, "z": 6 },
+              {/*disk 10*/"x": 156 + 1 * 15.5, "z": 6 },
+              {/*disk 11*/"x": 156 + 2 * 15.5, "z": 6 },
+              {/*disk 12*/"x": 156 + 3 * 15.5, "z": 6 },
+              {/*disk 13*/"x": 156 + 4 * 15.5, "z": 6 },
+              {/*disk 14*/"x": 156 + 5 * 15.5, "z": 6 },
+              {/*disk 15*/"x": 156 + 6 * 15.5, "z": 6 },
+              {/*disk 16*/"x": 156 + 7 * 15.5, "z": 6 },
+      
+              /* box 3*/
+              {/*disk 17*/"x": 278 + 0 * 15.5, "z": 6 },
+              {/*disk 18*/"x": 278 + 1 * 15.5, "z": 6 },
+              {/*disk 19*/"x": 278 + 2 * 15.5, "z": 6 },
+              {/*disk 20*/"x": 278 + 3 * 15.5, "z": 6 },
+              {/*disk 21*/"x": 278 + 4 * 15.5, "z": 6 },
+              {/*disk 22*/"x": 278 + 5 * 15.5, "z": 6 },
+              {/*disk 23*/"x": 278 + 6 * 15.5, "z": 6 },
+              {/*disk 24*/"x": 278 + 7 * 15.5, "z": 6 }]
+          },
+      
+          "16SFF_2NVME": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/16SFF_2NVMe.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png", "assets/images/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png", "assets/images/Disk_horizontal_SFF_LED.png"],
+            "box_disk_img": [1, 0, 0],
+            "box_capacity": [2, 8, 8],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 55, "z": 40 },
+              {/*disk 2*/"x": 55, "z": 55 },
+      
+              /* box 2*/
+              {/*disk 9*/"x": 156 + 0 * 15.5, "z": 6 },
+              {/*disk 10*/"x": 156 + 1 * 15.5, "z": 6 },
+              {/*disk 11*/"x": 156 + 2 * 15.5, "z": 6 },
+              {/*disk 12*/"x": 156 + 3 * 15.5, "z": 6 },
+              {/*disk 13*/"x": 156 + 4 * 15.5, "z": 6 },
+              {/*disk 14*/"x": 156 + 5 * 15.5, "z": 6 },
+              {/*disk 15*/"x": 156 + 6 * 15.5, "z": 6 },
+              {/*disk 16*/"x": 156 + 7 * 15.5, "z": 6 },
+      
+              /* box 3*/
+              {/*disk 17*/"x": 278 + 0 * 15.5, "z": 6 },
+              {/*disk 18*/"x": 278 + 1 * 15.5, "z": 6 },
+              {/*disk 19*/"x": 278 + 2 * 15.5, "z": 6 },
+              {/*disk 20*/"x": 278 + 3 * 15.5, "z": 6 },
+              {/*disk 21*/"x": 278 + 4 * 15.5, "z": 6 },
+              {/*disk 22*/"x": 278 + 5 * 15.5, "z": 6 },
+              {/*disk 23*/"x": 278 + 6 * 15.5, "z": 6 },
+              {/*disk 24*/"x": 278 + 7 * 15.5, "z": 6 }]
+          }
+        },
+        "Rear": {
+          "2SFF_3LFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/2SFF_3LFF.png",
+            "disk_imgs": [], // santino TODO: support both LFF & SFF disk image
+            // melody todo: find SFF and LFF disk image
+            "disk_led_imgs": [], // melody todo: add led image for LFF and SFF
+            "box_capacity": [2, 0, 3], // box 4 for 2 SFF, no box 5, box 6 for 3 LFF
+            "expander_bay_number": {/* santino todo */ },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 4*/
+              {/*disk 1*/"x": 36, "z": 8 },
+              {/*disk 2*/"x": 36, "z": 25 },
+      
+              /* box 6*/
+              {/*disk 3*/"x": 166, "z": 9 },
+              {/*disk 4*/"x": 166, "z": 37 },
+              {/*disk 5*/"x": 291, "z": 9 },
+            ]
+          },
+      
+          "2SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/2SFF.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png"],
+            "box_capacity": [0, 0, 2],
+            "expander_bay_number": {/* todo */ },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 6*/
+              {/*disk 5*/"x": 359, "z": 7 },
+              {/*disk 6*/"x": 359, "z": 24 }
+            ]
+          },
+      
+          "3LFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/3LFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [0, 0, 3], /* santino todo */
+            "expander_bay_number": {/* santino todo */ },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 6*/
+              {/*disk 1*/"x": 166, "z": 9 },
+              {/*disk 2*/"x": 166, "z": 37 },
+              {/*disk 3*/"x": 291, "z": 9 },
+            ]
+          },
+      
+          "6SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/6SFF.png",
+            "disk_imgs": ["assets/images/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_horizontal_SFF_LED.png"],
+            "box_capacity": [2, 2, 2],
+            "expander_bay_number": {
+              "12LFF": [-1, 17, 19, 21, 23, 25, 27],
+              "24SFF": [-1, 25, 26, 27, 28, 29, 30]
+            },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 4*/
+              {/*disk 1*/"x": 37, "z": 9 },
+              {/*disk 2*/"x": 37, "z": 25 },
+      
+              /* box 5*/
+              {/*disk 3*/"x": 179, "z": 9 },
+              {/*disk 4*/"x": 179, "z": 25 },
+      
+              /* box 6*/
+              {/*disk 5*/"x": 359, "z": 7 },
+              {/*disk 6*/"x": 359, "z": 24 }
+            ]
+          },
+      
+        },
+        "External": {}
+    },
+    "ProLiant DL385 Gen10 Plus v2": {
+        "Front": {
+          "8LFF_2SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/8LFF_2SFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"], // santino TODO: support both LFF & SFF disk image
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [2, 4, 4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 36, "z": 11 },
+              {/*disk 2*/"x": 111, "z": 11 },
+      
+              /* box 2*/
+              {/*disk 3*/"x": 29, "z": 29 },
+              {/*disk 4*/"x": 128, "z": 29 },
+              {/*disk 5*/"x": 227, "z": 29 },
+              {/*disk 6*/"x": 326, "z": 29 },
+      
+              /* box 3*/
+              {/*disk 7*/"x": 29, "z": 54 },
+              {/*disk 8*/"x": 128, "z": 54 },
+              {/*disk 9*/"x": 227, "z": 54 },
+              {/*disk 10*/"x": 326, "z": 54 },
+            ]
+          },
+      
+          "12LFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/12LFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [4, 4, 4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 29, "z": 3 },
+              {/*disk 2*/"x": 128, "z": 3 },
+              {/*disk 3*/"x": 227, "z": 3 },
+              {/*disk 4*/"x": 326, "z": 3 },
+      
+              /* box 2*/
+              {/*disk 5*/"x": 29, "z": 29 },
+              {/*disk 6*/"x": 128, "z": 29 },
+              {/*disk 7*/"x": 227, "z": 29 },
+              {/*disk 8*/"x": 326, "z": 29 },
+      
+              /* box 3*/
+              {/*disk 9*/"x": 29, "z": 54 },
+              {/*disk 10*/"x": 128, "z": 54 },
+              {/*disk 11*/"x": 227, "z": 54 },
+              {/*disk 12*/"x": 326, "z": 54 },
+            ]
+          },
+      
+          "24SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/24SFF.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png"],
+            "box_capacity": [8, 8, 8],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 30 + 0 * 15.5, "z": 6 },
+              {/*disk 2*/"x": 30 + 1 * 15.5, "z": 6 },
+              {/*disk 3*/"x": 30 + 2 * 15.5, "z": 6 },
+              {/*disk 4*/"x": 30 + 3 * 15.5, "z": 6 },
+              {/*disk 5*/"x": 30 + 4 * 15.5, "z": 6 },
+              {/*disk 6*/"x": 30 + 5 * 15.5, "z": 6 },
+              {/*disk 7*/"x": 30 + 6 * 15.5, "z": 6 },
+              {/*disk 8*/"x": 30 + 7 * 15.5, "z": 6 },
+      
+              /* box 2*/
+              {/*disk 9*/"x": 156 + 0 * 15.5, "z": 6 },
+              {/*disk 10*/"x": 156 + 1 * 15.5, "z": 6 },
+              {/*disk 11*/"x": 156 + 2 * 15.5, "z": 6 },
+              {/*disk 12*/"x": 156 + 3 * 15.5, "z": 6 },
+              {/*disk 13*/"x": 156 + 4 * 15.5, "z": 6 },
+              {/*disk 14*/"x": 156 + 5 * 15.5, "z": 6 },
+              {/*disk 15*/"x": 156 + 6 * 15.5, "z": 6 },
+              {/*disk 16*/"x": 156 + 7 * 15.5, "z": 6 },
+      
+              /* box 3*/
+              {/*disk 17*/"x": 278 + 0 * 15.5, "z": 6 },
+              {/*disk 18*/"x": 278 + 1 * 15.5, "z": 6 },
+              {/*disk 19*/"x": 278 + 2 * 15.5, "z": 6 },
+              {/*disk 20*/"x": 278 + 3 * 15.5, "z": 6 },
+              {/*disk 21*/"x": 278 + 4 * 15.5, "z": 6 },
+              {/*disk 22*/"x": 278 + 5 * 15.5, "z": 6 },
+              {/*disk 23*/"x": 278 + 6 * 15.5, "z": 6 },
+              {/*disk 24*/"x": 278 + 7 * 15.5, "z": 6 }]
+          },
+      
+          "16SFF_2NVME": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/16SFF_2NVMe.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png", "assets/images/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png", "assets/images/Disk_horizontal_SFF_LED.png"],
+            "box_disk_img": [1, 0, 0],
+            "box_capacity": [2, 8, 8],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 55, "z": 40 },
+              {/*disk 2*/"x": 55, "z": 55 },
+      
+              /* box 2*/
+              {/*disk 9*/"x": 156 + 0 * 15.5, "z": 6 },
+              {/*disk 10*/"x": 156 + 1 * 15.5, "z": 6 },
+              {/*disk 11*/"x": 156 + 2 * 15.5, "z": 6 },
+              {/*disk 12*/"x": 156 + 3 * 15.5, "z": 6 },
+              {/*disk 13*/"x": 156 + 4 * 15.5, "z": 6 },
+              {/*disk 14*/"x": 156 + 5 * 15.5, "z": 6 },
+              {/*disk 15*/"x": 156 + 6 * 15.5, "z": 6 },
+              {/*disk 16*/"x": 156 + 7 * 15.5, "z": 6 },
+      
+              /* box 3*/
+              {/*disk 17*/"x": 278 + 0 * 15.5, "z": 6 },
+              {/*disk 18*/"x": 278 + 1 * 15.5, "z": 6 },
+              {/*disk 19*/"x": 278 + 2 * 15.5, "z": 6 },
+              {/*disk 20*/"x": 278 + 3 * 15.5, "z": 6 },
+              {/*disk 21*/"x": 278 + 4 * 15.5, "z": 6 },
+              {/*disk 22*/"x": 278 + 5 * 15.5, "z": 6 },
+              {/*disk 23*/"x": 278 + 6 * 15.5, "z": 6 },
+              {/*disk 24*/"x": 278 + 7 * 15.5, "z": 6 }]
+          }
+        },
+        "Rear": {
+          "2SFF_3LFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/2SFF_3LFF.png",
+            "disk_imgs": [], // santino TODO: support both LFF & SFF disk image
+            // melody todo: find SFF and LFF disk image
+            "disk_led_imgs": [], // melody todo: add led image for LFF and SFF
+            "box_capacity": [2, 0, 3], // box 4 for 2 SFF, no box 5, box 6 for 3 LFF
+            "expander_bay_number": {/* santino todo */ },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 4*/
+              {/*disk 1*/"x": 36, "z": 8 },
+              {/*disk 2*/"x": 36, "z": 25 },
+      
+              /* box 6*/
+              {/*disk 3*/"x": 166, "z": 9 },
+              {/*disk 4*/"x": 166, "z": 37 },
+              {/*disk 5*/"x": 291, "z": 9 },
+            ]
+          },
+      
+          "2SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/2SFF.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png"],
+            "box_capacity": [0, 0, 2],
+            "expander_bay_number": {/* todo */ },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 6*/
+              {/*disk 5*/"x": 359, "z": 7 },
+              {/*disk 6*/"x": 359, "z": 24 }
+            ]
+          },
+      
+          "3LFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/3LFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [0, 0, 3], /* santino todo */
+            "expander_bay_number": {/* santino todo */ },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 6*/
+              {/*disk 1*/"x": 166, "z": 9 },
+              {/*disk 2*/"x": 166, "z": 37 },
+              {/*disk 3*/"x": 291, "z": 9 },
+            ]
+          },
+      
+          "6SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/6SFF.png",
+            "disk_imgs": ["assets/images/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_horizontal_SFF_LED.png"],
+            "box_capacity": [2, 2, 2],
+            "expander_bay_number": {
+              "12LFF": [-1, 17, 19, 21, 23, 25, 27],
+              "24SFF": [-1, 25, 26, 27, 28, 29, 30]
+            },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 4*/
+              {/*disk 1*/"x": 37, "z": 9 },
+              {/*disk 2*/"x": 37, "z": 25 },
+      
+              /* box 5*/
+              {/*disk 3*/"x": 179, "z": 9 },
+              {/*disk 4*/"x": 179, "z": 25 },
+      
+              /* box 6*/
+              {/*disk 5*/"x": 359, "z": 7 },
+              {/*disk 6*/"x": 359, "z": 24 }
+            ]
+          },
+      
+        },
+        "External": {}
+    },
+    "ProLiant DL385 Gen10 Plus": {
+        "Front": {
+          "8LFF_2SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/8LFF_2SFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"], // santino TODO: support both LFF & SFF disk image
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [2, 4, 4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 36, "z": 11 },
+              {/*disk 2*/"x": 111, "z": 11 },
+      
+              /* box 2*/
+              {/*disk 3*/"x": 29, "z": 29 },
+              {/*disk 4*/"x": 128, "z": 29 },
+              {/*disk 5*/"x": 227, "z": 29 },
+              {/*disk 6*/"x": 326, "z": 29 },
+      
+              /* box 3*/
+              {/*disk 7*/"x": 29, "z": 54 },
+              {/*disk 8*/"x": 128, "z": 54 },
+              {/*disk 9*/"x": 227, "z": 54 },
+              {/*disk 10*/"x": 326, "z": 54 },
+            ]
+          },
+      
+          "12LFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/12LFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [4, 4, 4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 29, "z": 3 },
+              {/*disk 2*/"x": 128, "z": 3 },
+              {/*disk 3*/"x": 227, "z": 3 },
+              {/*disk 4*/"x": 326, "z": 3 },
+      
+              /* box 2*/
+              {/*disk 5*/"x": 29, "z": 29 },
+              {/*disk 6*/"x": 128, "z": 29 },
+              {/*disk 7*/"x": 227, "z": 29 },
+              {/*disk 8*/"x": 326, "z": 29 },
+      
+              /* box 3*/
+              {/*disk 9*/"x": 29, "z": 54 },
+              {/*disk 10*/"x": 128, "z": 54 },
+              {/*disk 11*/"x": 227, "z": 54 },
+              {/*disk 12*/"x": 326, "z": 54 },
+            ]
+          },
+      
+          "24SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/24SFF.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png"],
+            "box_capacity": [8, 8, 8],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 30 + 0 * 15.5, "z": 6 },
+              {/*disk 2*/"x": 30 + 1 * 15.5, "z": 6 },
+              {/*disk 3*/"x": 30 + 2 * 15.5, "z": 6 },
+              {/*disk 4*/"x": 30 + 3 * 15.5, "z": 6 },
+              {/*disk 5*/"x": 30 + 4 * 15.5, "z": 6 },
+              {/*disk 6*/"x": 30 + 5 * 15.5, "z": 6 },
+              {/*disk 7*/"x": 30 + 6 * 15.5, "z": 6 },
+              {/*disk 8*/"x": 30 + 7 * 15.5, "z": 6 },
+      
+              /* box 2*/
+              {/*disk 9*/"x": 156 + 0 * 15.5, "z": 6 },
+              {/*disk 10*/"x": 156 + 1 * 15.5, "z": 6 },
+              {/*disk 11*/"x": 156 + 2 * 15.5, "z": 6 },
+              {/*disk 12*/"x": 156 + 3 * 15.5, "z": 6 },
+              {/*disk 13*/"x": 156 + 4 * 15.5, "z": 6 },
+              {/*disk 14*/"x": 156 + 5 * 15.5, "z": 6 },
+              {/*disk 15*/"x": 156 + 6 * 15.5, "z": 6 },
+              {/*disk 16*/"x": 156 + 7 * 15.5, "z": 6 },
+      
+              /* box 3*/
+              {/*disk 17*/"x": 278 + 0 * 15.5, "z": 6 },
+              {/*disk 18*/"x": 278 + 1 * 15.5, "z": 6 },
+              {/*disk 19*/"x": 278 + 2 * 15.5, "z": 6 },
+              {/*disk 20*/"x": 278 + 3 * 15.5, "z": 6 },
+              {/*disk 21*/"x": 278 + 4 * 15.5, "z": 6 },
+              {/*disk 22*/"x": 278 + 5 * 15.5, "z": 6 },
+              {/*disk 23*/"x": 278 + 6 * 15.5, "z": 6 },
+              {/*disk 24*/"x": 278 + 7 * 15.5, "z": 6 }]
+          },
+      
+          "16SFF_2NVME": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/16SFF_2NVMe.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png", "assets/images/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png", "assets/images/Disk_horizontal_SFF_LED.png"],
+            "box_disk_img": [1, 0, 0],
+            "box_capacity": [2, 8, 8],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 55, "z": 40 },
+              {/*disk 2*/"x": 55, "z": 55 },
+      
+              /* box 2*/
+              {/*disk 9*/"x": 156 + 0 * 15.5, "z": 6 },
+              {/*disk 10*/"x": 156 + 1 * 15.5, "z": 6 },
+              {/*disk 11*/"x": 156 + 2 * 15.5, "z": 6 },
+              {/*disk 12*/"x": 156 + 3 * 15.5, "z": 6 },
+              {/*disk 13*/"x": 156 + 4 * 15.5, "z": 6 },
+              {/*disk 14*/"x": 156 + 5 * 15.5, "z": 6 },
+              {/*disk 15*/"x": 156 + 6 * 15.5, "z": 6 },
+              {/*disk 16*/"x": 156 + 7 * 15.5, "z": 6 },
+      
+              /* box 3*/
+              {/*disk 17*/"x": 278 + 0 * 15.5, "z": 6 },
+              {/*disk 18*/"x": 278 + 1 * 15.5, "z": 6 },
+              {/*disk 19*/"x": 278 + 2 * 15.5, "z": 6 },
+              {/*disk 20*/"x": 278 + 3 * 15.5, "z": 6 },
+              {/*disk 21*/"x": 278 + 4 * 15.5, "z": 6 },
+              {/*disk 22*/"x": 278 + 5 * 15.5, "z": 6 },
+              {/*disk 23*/"x": 278 + 6 * 15.5, "z": 6 },
+              {/*disk 24*/"x": 278 + 7 * 15.5, "z": 6 }]
+          }
+        },
+        "Rear": {
+          "2SFF_3LFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/2SFF_3LFF.png",
+            "disk_imgs": [], // santino TODO: support both LFF & SFF disk image
+            // melody todo: find SFF and LFF disk image
+            "disk_led_imgs": [], // melody todo: add led image for LFF and SFF
+            "box_capacity": [2, 0, 3], // box 4 for 2 SFF, no box 5, box 6 for 3 LFF
+            "expander_bay_number": {/* santino todo */ },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 4*/
+              {/*disk 1*/"x": 36, "z": 8 },
+              {/*disk 2*/"x": 36, "z": 25 },
+      
+              /* box 6*/
+              {/*disk 3*/"x": 166, "z": 9 },
+              {/*disk 4*/"x": 166, "z": 37 },
+              {/*disk 5*/"x": 291, "z": 9 },
+            ]
+          },
+      
+          "2SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/2SFF.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png"],
+            "box_capacity": [0, 0, 2],
+            "expander_bay_number": {/* todo */ },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 6*/
+              {/*disk 5*/"x": 359, "z": 7 },
+              {/*disk 6*/"x": 359, "z": 24 }
+            ]
+          },
+      
+          "3LFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/3LFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [0, 0, 3], /* santino todo */
+            "expander_bay_number": {/* santino todo */ },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 6*/
+              {/*disk 1*/"x": 166, "z": 9 },
+              {/*disk 2*/"x": 166, "z": 37 },
+              {/*disk 3*/"x": 291, "z": 9 },
+            ]
+          },
+      
+          "6SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/6SFF.png",
+            "disk_imgs": ["assets/images/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_horizontal_SFF_LED.png"],
+            "box_capacity": [2, 2, 2],
+            "expander_bay_number": {
+              "12LFF": [-1, 17, 19, 21, 23, 25, 27],
+              "24SFF": [-1, 25, 26, 27, 28, 29, 30]
+            },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 4*/
+              {/*disk 1*/"x": 37, "z": 9 },
+              {/*disk 2*/"x": 37, "z": 25 },
+      
+              /* box 5*/
+              {/*disk 3*/"x": 179, "z": 9 },
+              {/*disk 4*/"x": 179, "z": 25 },
+      
+              /* box 6*/
+              {/*disk 5*/"x": 359, "z": 7 },
+              {/*disk 6*/"x": 359, "z": 24 }
+            ]
+          },
+      
+        },
+        "External": {}
+    },
+    "ProLiant DL385 Gen10": {
+        "Front": {
+          "8LFF_2SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/8LFF_2SFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"], // santino TODO: support both LFF & SFF disk image
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [2, 4, 4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 36, "z": 11 },
+              {/*disk 2*/"x": 111, "z": 11 },
+      
+              /* box 2*/
+              {/*disk 3*/"x": 29, "z": 29 },
+              {/*disk 4*/"x": 128, "z": 29 },
+              {/*disk 5*/"x": 227, "z": 29 },
+              {/*disk 6*/"x": 326, "z": 29 },
+      
+              /* box 3*/
+              {/*disk 7*/"x": 29, "z": 54 },
+              {/*disk 8*/"x": 128, "z": 54 },
+              {/*disk 9*/"x": 227, "z": 54 },
+              {/*disk 10*/"x": 326, "z": 54 },
+            ]
+          },
+      
+          "12LFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/12LFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [4, 4, 4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 29, "z": 3 },
+              {/*disk 2*/"x": 128, "z": 3 },
+              {/*disk 3*/"x": 227, "z": 3 },
+              {/*disk 4*/"x": 326, "z": 3 },
+      
+              /* box 2*/
+              {/*disk 5*/"x": 29, "z": 29 },
+              {/*disk 6*/"x": 128, "z": 29 },
+              {/*disk 7*/"x": 227, "z": 29 },
+              {/*disk 8*/"x": 326, "z": 29 },
+      
+              /* box 3*/
+              {/*disk 9*/"x": 29, "z": 54 },
+              {/*disk 10*/"x": 128, "z": 54 },
+              {/*disk 11*/"x": 227, "z": 54 },
+              {/*disk 12*/"x": 326, "z": 54 },
+            ]
+          },
+      
+          "24SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/24SFF.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png"],
+            "box_capacity": [8, 8, 8],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 30 + 0 * 15.5, "z": 6 },
+              {/*disk 2*/"x": 30 + 1 * 15.5, "z": 6 },
+              {/*disk 3*/"x": 30 + 2 * 15.5, "z": 6 },
+              {/*disk 4*/"x": 30 + 3 * 15.5, "z": 6 },
+              {/*disk 5*/"x": 30 + 4 * 15.5, "z": 6 },
+              {/*disk 6*/"x": 30 + 5 * 15.5, "z": 6 },
+              {/*disk 7*/"x": 30 + 6 * 15.5, "z": 6 },
+              {/*disk 8*/"x": 30 + 7 * 15.5, "z": 6 },
+      
+              /* box 2*/
+              {/*disk 9*/"x": 156 + 0 * 15.5, "z": 6 },
+              {/*disk 10*/"x": 156 + 1 * 15.5, "z": 6 },
+              {/*disk 11*/"x": 156 + 2 * 15.5, "z": 6 },
+              {/*disk 12*/"x": 156 + 3 * 15.5, "z": 6 },
+              {/*disk 13*/"x": 156 + 4 * 15.5, "z": 6 },
+              {/*disk 14*/"x": 156 + 5 * 15.5, "z": 6 },
+              {/*disk 15*/"x": 156 + 6 * 15.5, "z": 6 },
+              {/*disk 16*/"x": 156 + 7 * 15.5, "z": 6 },
+      
+              /* box 3*/
+              {/*disk 17*/"x": 278 + 0 * 15.5, "z": 6 },
+              {/*disk 18*/"x": 278 + 1 * 15.5, "z": 6 },
+              {/*disk 19*/"x": 278 + 2 * 15.5, "z": 6 },
+              {/*disk 20*/"x": 278 + 3 * 15.5, "z": 6 },
+              {/*disk 21*/"x": 278 + 4 * 15.5, "z": 6 },
+              {/*disk 22*/"x": 278 + 5 * 15.5, "z": 6 },
+              {/*disk 23*/"x": 278 + 6 * 15.5, "z": 6 },
+              {/*disk 24*/"x": 278 + 7 * 15.5, "z": 6 }]
+          },
+      
+          "16SFF_2NVME": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/front/16SFF_2NVMe.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png", "assets/images/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png", "assets/images/Disk_horizontal_SFF_LED.png"],
+            "box_disk_img": [1, 0, 0],
+            "box_capacity": [2, 8, 8],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 55, "z": 40 },
+              {/*disk 2*/"x": 55, "z": 55 },
+      
+              /* box 2*/
+              {/*disk 9*/"x": 156 + 0 * 15.5, "z": 6 },
+              {/*disk 10*/"x": 156 + 1 * 15.5, "z": 6 },
+              {/*disk 11*/"x": 156 + 2 * 15.5, "z": 6 },
+              {/*disk 12*/"x": 156 + 3 * 15.5, "z": 6 },
+              {/*disk 13*/"x": 156 + 4 * 15.5, "z": 6 },
+              {/*disk 14*/"x": 156 + 5 * 15.5, "z": 6 },
+              {/*disk 15*/"x": 156 + 6 * 15.5, "z": 6 },
+              {/*disk 16*/"x": 156 + 7 * 15.5, "z": 6 },
+      
+              /* box 3*/
+              {/*disk 17*/"x": 278 + 0 * 15.5, "z": 6 },
+              {/*disk 18*/"x": 278 + 1 * 15.5, "z": 6 },
+              {/*disk 19*/"x": 278 + 2 * 15.5, "z": 6 },
+              {/*disk 20*/"x": 278 + 3 * 15.5, "z": 6 },
+              {/*disk 21*/"x": 278 + 4 * 15.5, "z": 6 },
+              {/*disk 22*/"x": 278 + 5 * 15.5, "z": 6 },
+              {/*disk 23*/"x": 278 + 6 * 15.5, "z": 6 },
+              {/*disk 24*/"x": 278 + 7 * 15.5, "z": 6 }]
+          }
+        },
+        "Rear": {
+          "2SFF_3LFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/2SFF_3LFF.png",
+            "disk_imgs": [], // santino TODO: support both LFF & SFF disk image
+            // melody todo: find SFF and LFF disk image
+            "disk_led_imgs": [], // melody todo: add led image for LFF and SFF
+            "box_capacity": [2, 0, 3], // box 4 for 2 SFF, no box 5, box 6 for 3 LFF
+            "expander_bay_number": {/* santino todo */ },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 4*/
+              {/*disk 1*/"x": 36, "z": 8 },
+              {/*disk 2*/"x": 36, "z": 25 },
+      
+              /* box 6*/
+              {/*disk 3*/"x": 166, "z": 9 },
+              {/*disk 4*/"x": 166, "z": 37 },
+              {/*disk 5*/"x": 291, "z": 9 },
+            ]
+          },
+      
+          "2SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/2SFF.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png"],
+            "box_capacity": [0, 0, 2],
+            "expander_bay_number": {/* todo */ },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 6*/
+              {/*disk 5*/"x": 359, "z": 7 },
+              {/*disk 6*/"x": 359, "z": 24 }
+            ]
+          },
+      
+          "3LFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/3LFF.png",
+            "disk_imgs": ["assets/images/Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_LFF_LED.png"],
+            "box_capacity": [0, 0, 3], /* santino todo */
+            "expander_bay_number": {/* santino todo */ },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 6*/
+              {/*disk 1*/"x": 166, "z": 9 },
+              {/*disk 2*/"x": 166, "z": 37 },
+              {/*disk 3*/"x": 291, "z": 9 },
+            ]
+          },
+      
+          "6SFF": {
+            "chasis_img": "assets/images/ProLiant_DL380_Gen10/rear/6SFF.png",
+            "disk_imgs": ["assets/images/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_horizontal_SFF_LED.png"],
+            "box_capacity": [2, 2, 2],
+            "expander_bay_number": {
+              "12LFF": [-1, 17, 19, 21, 23, 25, 27],
+              "24SFF": [-1, 25, 26, 27, 28, 29, 30]
+            },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 4*/
+              {/*disk 1*/"x": 37, "z": 9 },
+              {/*disk 2*/"x": 37, "z": 25 },
+      
+              /* box 5*/
+              {/*disk 3*/"x": 179, "z": 9 },
+              {/*disk 4*/"x": 179, "z": 25 },
+      
+              /* box 6*/
+              {/*disk 5*/"x": 359, "z": 7 },
+              {/*disk 6*/"x": 359, "z": 24 }
+            ]
+          },
+      
+        },
+        "External": {}
+    },
+    "ProLiant ML350 Gen10": {
+        "Front": {
+            "12LFF": {
+                "chasis_img": "assets/images/ProLiant_ML350_Gen10/front/12LFF.png",
+                "disk_imgs": ["assets/images/ProLiant_ML350_Gen10/Disk_LFF.png"],
+                "disk_led_imgs": ["assets/images/ProLiant_ML350_Gen10/Disk_LFF_LED.png"],
+                "box_capacity": [4, 4, 4],
+                "coordinate": [
+                    {/*disk 0, dont care*/"x": 0, "z": 0 },
+    
+                    /* box 1*/
+                    {/*disk 1*/"x": 347, "z": 23 },
+                    {/*disk 2*/"x": 347, "z": 64 },
+                    {/*disk 3*/"x": 347, "z": 103 },
+                    {/*disk 4*/"x": 347, "z": 145 },
+    
+                    /* box 2*/
+                    {/*disk 5*/"x": 177, "z": 23 },
+                    {/*disk 6*/"x": 177, "z": 64 },
+                    {/*disk 7*/"x": 177, "z": 103 },
+                    {/*disk 8*/"x": 177, "z": 145 },
+    
+                    /* box 3*/
+                    {/*disk 9*/"x": 25, "z": 23 },
+                    {/*disk 10*/"x": 25, "z": 64 },
+                    {/*disk 11*/"x": 25, "z": 103 },
+                    {/*disk 12*/"x": 25, "z": 145 },
+                ]
+            },
+    
+            "24SFF": {
+                "chasis_img": "assets/images/ProLiant_ML350_Gen10/front/24SFF.png",
+                "disk_imgs": ["assets/images/ProLiant_ML350_Gen10/Disk_horizontal_SFF.png"],
+                "disk_led_imgs": ["assets/images/ProLiant_ML350_Gen10/Disk_horizontal_SFF_LED.png"],
+                "box_capacity": [8, 8, 8],
+                "coordinate": [
+                    {/*disk 0, dont care*/"x": 0, "z": 0 },
+    
+                    /* box 1*/
+                    {/*disk 1*/"x": 366, "z": 15 + 20.25 * 0 },
+                    {/*disk 2*/"x": 366, "z": 15 + 20.25 * 1 },
+                    {/*disk 3*/"x": 366, "z": 15 + 20.25 * 2 },
+                    {/*disk 4*/"x": 366, "z": 15 + 20.25 * 3 },
+                    {/*disk 5*/"x": 366, "z": 15 + 20.25 * 4 },
+                    {/*disk 6*/"x": 366, "z": 15 + 20.25 * 5 },
+                    {/*disk 7*/"x": 366, "z": 15 + 20.25 * 6 },
+                    {/*disk 8*/"x": 366, "z": 15 + 20.25 * 7 },
+    
+                    /* box 2*/
+                    {/*disk 1*/"x": 196, "z": 15 + 20.25 * 0 },
+                    {/*disk 2*/"x": 196, "z": 15 + 20.25 * 1 },
+                    {/*disk 3*/"x": 196, "z": 15 + 20.25 * 2 },
+                    {/*disk 4*/"x": 196, "z": 15 + 20.25 * 3 },
+                    {/*disk 5*/"x": 196, "z": 15 + 20.25 * 4 },
+                    {/*disk 6*/"x": 196, "z": 15 + 20.25 * 5 },
+                    {/*disk 7*/"x": 196, "z": 15 + 20.25 * 6 },
+                    {/*disk 8*/"x": 196, "z": 15 + 20.25 * 7 },
+    
+                    /* box 3*/
+                    {/*disk 1*/"x": 46, "z": 15 + 20.25 * 0 },
+                    {/*disk 2*/"x": 46, "z": 15 + 20.25 * 1 },
+                    {/*disk 3*/"x": 46, "z": 15 + 20.25 * 2 },
+                    {/*disk 4*/"x": 46, "z": 15 + 20.25 * 3 },
+                    {/*disk 5*/"x": 46, "z": 15 + 20.25 * 4 },
+                    {/*disk 6*/"x": 46, "z": 15 + 20.25 * 5 },
+                    {/*disk 7*/"x": 46, "z": 15 + 20.25 * 6 },
+                    {/*disk 8*/"x": 46, "z": 15 + 20.25 * 7 },
+    
+                ]
+            },
+    
+    
+    
+        },
+        "Rear": {},
+        "External": {}
+    },
+    "ProLiant XL420 Gen10": {
+        "Front": {
+          // 3 disks in a column; 8 columns
+          "24LFF": {
+            "chasis_img": "assets/images/ProLiant_XL420_Gen10/front/24LFF.png",
+            "disk_imgs": ["assets/images/ProLiant_XL420_Gen10/Front_Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_XL420_Gen10/Front_Disk_LFF_LED.png"],
+            "box_capacity": [24],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              /* Box 1 Front*/
+              {/*disk 1*/"x": 37 + 160 * 0, "z": 6 + 39 * 0 },
+              {/*disk 2*/"x": 37 + 160 * 0, "z": 6 + 39 * 1 },
+              {/*disk 3*/"x": 37 + 160 * 0, "z": 6 + 39 * 2 },
+      
+              {/*disk 4*/"x": 37 + 160 * 1, "z": 6 + 39 * 0 },
+              {/*disk 5*/"x": 37 + 160 * 1, "z": 6 + 39 * 1 },
+              {/*disk 6*/"x": 37 + 160 * 1, "z": 6 + 39 * 2 },
+      
+              {/*disk 7*/"x": 37 + 160 * 2, "z": 6 + 39 * 0 },
+              {/*disk 8*/"x": 37 + 160 * 2, "z": 6 + 39 * 1 },
+              {/*disk 9*/"x": 37 + 160 * 2, "z": 6 + 39 * 2 },
+      
+              {/*disk 10*/"x": 37 + 160 * 3, "z": 6 + 39 * 0 },
+              {/*disk 11*/"x": 37 + 160 * 3, "z": 6 + 39 * 1 },
+              {/*disk 12*/"x": 37 + 160 * 3, "z": 6 + 39 * 2 },
+      
+              /* Box 1 Mid*/
+              {/*disk 13*/"x": 37 + 160 * 0, "z": 136 + 39 * 0 },
+              {/*disk 14*/"x": 37 + 160 * 0, "z": 136 + 39 * 1 },
+              {/*disk 15*/"x": 37 + 160 * 0, "z": 136 + 39 * 2 },
+      
+              {/*disk 16*/"x": 37 + 160 * 1, "z": 136 + 39 * 0 },
+              {/*disk 17*/"x": 37 + 160 * 1, "z": 136 + 39 * 1 },
+              {/*disk 18*/"x": 37 + 160 * 1, "z": 136 + 39 * 2 },
+      
+              {/*disk 19*/"x": 37 + 160 * 2, "z": 136 + 39 * 0 },
+              {/*disk 20*/"x": 37 + 160 * 2, "z": 136 + 39 * 1 },
+              {/*disk 21*/"x": 37 + 160 * 2, "z": 136 + 39 * 2 },
+      
+              {/*disk 22*/"x": 37 + 160 * 3, "z": 136 + 39 * 0 },
+              {/*disk 23*/"x": 37 + 160 * 3, "z": 136 + 39 * 1 },
+              {/*disk 24*/"x": 37 + 160 * 3, "z": 136 + 39 * 2 },
+      
+      
+            ]
+          },
+      
+          // 24 disks in a row; 2 rows
+          "48SFF": {
+            "chasis_img": "assets/images/ProLiant_XL420_Gen10/front/48SFF.png",
+            "disk_imgs": ["assets/images/ProLiant_XL420_Gen10/Disk_SFF.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_XL420_Gen10/Disk_SFF_LED.png"],
+            "box_capacity": [48],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* Box 1 Front*/
+              {/*disk 1*/"x": 42 + 0 * 23, "z": 8 },
+              {/*disk 2*/"x": 42 + 1 * 23, "z": 8 },
+              {/*disk 3*/"x": 42 + 2 * 23, "z": 8 },
+              {/*disk 4*/"x": 42 + 3 * 23, "z": 8 },
+              {/*disk 5*/"x": 42 + 4 * 23, "z": 8 },
+              {/*disk 6*/"x": 44 + 5 * 23, "z": 8 },
+      
+              {/*disk 7*/"x": 188 + 0 * 23, "z": 8 },
+              {/*disk 8*/"x": 188 + 1 * 23, "z": 8 },
+              {/*disk 9*/"x": 188 + 2 * 23, "z": 8 },
+              {/*disk 10*/"x": 188 + 3 * 23, "z": 8 },
+              {/*disk 11*/"x": 188 + 4 * 23, "z": 8 },
+              {/*disk 12*/"x": 190 + 5 * 23, "z": 8 },
+      
+              {/*disk 13*/"x": 374 + 0 * 23, "z": 8 },
+              {/*disk 14*/"x": 374 + 1 * 23, "z": 8 },
+              {/*disk 15*/"x": 374 + 2 * 23, "z": 8 },
+              {/*disk 16*/"x": 374 + 3 * 23, "z": 8 },
+              {/*disk 17*/"x": 374 + 4 * 23, "z": 8 },
+              {/*disk 18*/"x": 376 + 5 * 23, "z": 8 },
+      
+              {/*disk 19*/"x": 522 + 0 * 23, "z": 8 },
+              {/*disk 20*/"x": 522 + 1 * 23, "z": 8 },
+              {/*disk 21*/"x": 522 + 2 * 23, "z": 8 },
+              {/*disk 22*/"x": 522 + 3 * 23, "z": 8 },
+              {/*disk 23*/"x": 522 + 4 * 23, "z": 8 },
+              {/*disk 24*/"x": 524 + 5 * 23, "z": 8 },
+      
+      
+              /*Box 1 Mid*/
+              {/*disk 25*/"x": 42 + 0 * 23, "z": 133 },
+              {/*disk 26*/"x": 42 + 1 * 23, "z": 133 },
+              {/*disk 27*/"x": 42 + 2 * 23, "z": 133 },
+              {/*disk 28*/"x": 42 + 3 * 23, "z": 133 },
+              {/*disk 29*/"x": 42 + 4 * 23, "z": 133 },
+              {/*disk 30*/"x": 44 + 5 * 23, "z": 133 },
+      
+              {/*disk 31*/"x": 188 + 0 * 23, "z": 133 },
+              {/*disk 32*/"x": 188 + 1 * 23, "z": 133 },
+              {/*disk 33*/"x": 188 + 2 * 23, "z": 133 },
+              {/*disk 34*/"x": 188 + 3 * 23, "z": 133 },
+              {/*disk 35*/"x": 188 + 4 * 23, "z": 133 },
+              {/*disk 36*/"x": 190 + 5 * 23, "z": 133 },
+      
+              {/*disk 37*/"x": 374 + 0 * 23, "z": 133 },
+              {/*disk 38*/"x": 374 + 1 * 23, "z": 133 },
+              {/*disk 39*/"x": 374 + 2 * 23, "z": 133 },
+              {/*disk 40*/"x": 374 + 3 * 23, "z": 133 },
+              {/*disk 41*/"x": 374 + 4 * 23, "z": 133 },
+              {/*disk 42*/"x": 376 + 5 * 23, "z": 133 },
+      
+              {/*disk 43*/"x": 522 + 0 * 23, "z": 133 },
+              {/*disk 44*/"x": 522 + 1 * 23, "z": 133 },
+              {/*disk 45*/"x": 522 + 2 * 23, "z": 133 },
+              {/*disk 46*/"x": 522 + 3 * 23, "z": 133 },
+              {/*disk 47*/"x": 522 + 4 * 23, "z": 133 },
+              {/*disk 48*/"x": 524 + 5 * 23, "z": 133 },
+      
+      
+      
+            ]
+          },
+        },
+        "Rear": {
+          // 6 NVME SSD (SFF),
+          // 4 LFF
+          // 2 SFF
+      
+          // 3 disks in a column; 2 columns
+          "6SFF": {
+            "chasis_img": "assets/images/ProLiant_XL420_Gen10/rear/rear.png",
+            "disk_imgs": ["assets/images/ProLiant_XL420_Gen10/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_XL420_Gen10/Disk_horizontal_SFF_LED.png"],
+            "box_capacity": [6],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 125, "z": 6 },
+              {/*disk 2*/"x": 125, "z": 34 },
+              {/*disk 3*/"x": 125, "z": 62 },
+              {/*disk 4*/"x": 293, "z": 6 },
+              {/*disk 5*/"x": 293, "z": 34 },
+              {/*disk 6*/"x": 293, "z": 62 },
+            ]
+          },
+      
+      
+          "4LFF": {
+            "chasis_img": "assets/images/ProLiant_XL420_Gen10/rear/rear.png",
+            "disk_imgs": ["assets/images/ProLiant_XL420_Gen10/Rear_Disk_LFF.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_XL420_Gen10/Rear_Disk_LFF_LED.png"],
+            "box_capacity": [4],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 125, "z": 6 },
+              {/*disk 2*/"x": 125, "z": 49 },
+              {/*disk 3*/"x": 293, "z": 6 },
+              {/*disk 4*/"x": 293, "z": 49 },
+            ]
+          },
+      
+          "2SFF": {
+            "chasis_img": "assets/images/ProLiant_XL420_Gen10/rear/rear.png",
+            "disk_imgs": ["assets/images/ProLiant_XL420_Gen10/Disk_horizontal_SFF.png"],
+            "disk_led_imgs": ["assets/images/ProLiant_XL420_Gen10/Disk_horizontal_SFF_LED.png"],
+            "box_capacity": [2],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 125, "z": 6 },
+              {/*disk 2*/"x": 125, "z": 34 },
+      
+            ]
+          }
+        },
+        "External": {}
+    },
+    "Synergy 480 Gen10": {
+        "Front": {
+          "2SFF": {
+            "chasis_img": "assets/images/Synergy_480_Gen10/front/2SFF.png",
+            "disk_imgs": ["assets/images/Disk_SFF.png"],
+            "disk_led_imgs": ["assets/images/Disk_SFF_LED.png"],
+            "box_capacity": [2],
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* box 1*/
+              {/*disk 1*/"x": 39, "z": 11 },
+              {/*disk 2*/"x": 39, "z": 102 },
+            ]
+          }
+        },
+        "Rear": {},
+        "External": {
+          "D3940": {
+            "chasis_img": "assets/images/Synergy_480_Gen10/external/D3940.png",
+            "disk_imgs": [],
+            "disk_led_imgs": [],
+            "box_capacity": [40],
+            "disk_size": { "x": 117, "z": 25 },
+            "coordinate": [
+              {/*disk 0, dont care*/"x": 0, "z": 0 },
+      
+              /* column 1*/
+              {/*disk 1*/"x": 46, "z": 40 },
+              {/*disk 2*/"x": 46, "z": 67 },
+              {/*disk 3*/"x": 46, "z": 94 },
+              {/*disk 4*/"x": 46, "z": 121 },
+              {/*disk 5*/"x": 46, "z": 175 },
+              {/*disk 6*/"x": 46, "z": 202 },
+              {/*disk 7*/"x": 46, "z": 229 },
+              {/*disk 8*/"x": 46, "z": 256 },
+      
+              /* column 2*/
+              {/*disk 9*/"x": 167, "z": 40 },
+              {/*disk 10*/"x": 167, "z": 67 },
+              {/*disk 11*/"x": 167, "z": 94 },
+              {/*disk 12*/"x": 167, "z": 121 },
+              {/*disk 13*/"x": 167, "z": 175 },
+              {/*disk 14*/"x": 167, "z": 202 },
+              {/*disk 15*/"x": 167, "z": 229 },
+              {/*disk 16*/"x": 167, "z": 256 },
+      
+              /* column 3*/
+              {/*disk 17*/"x": 288, "z": 40 },
+              {/*disk 18*/"x": 288, "z": 67 },
+              {/*disk 19*/"x": 288, "z": 94 },
+              {/*disk 20*/"x": 288, "z": 121 },
+              {/*disk 21*/"x": 288, "z": 175 },
+              {/*disk 22*/"x": 288, "z": 202 },
+              {/*disk 23*/"x": 288, "z": 229 },
+              {/*disk 24*/"x": 288, "z": 256 },
+      
+              /* column 4*/
+              {/*disk 25*/"x": 409, "z": 40 },
+              {/*disk 26*/"x": 409, "z": 67 },
+              {/*disk 27*/"x": 409, "z": 94 },
+              {/*disk 28*/"x": 409, "z": 121 },
+              {/*disk 29*/"x": 409, "z": 175 },
+              {/*disk 30*/"x": 409, "z": 202 },
+              {/*disk 31*/"x": 409, "z": 229 },
+              {/*disk 32*/"x": 409, "z": 256 },
+      
+              /* column 5*/
+              {/*disk 33*/"x": 530, "z": 40 },
+              {/*disk 34*/"x": 530, "z": 67 },
+              {/*disk 35*/"x": 530, "z": 94 },
+              {/*disk 36*/"x": 530, "z": 121 },
+              {/*disk 37*/"x": 530, "z": 175 },
+              {/*disk 38*/"x": 530, "z": 202 },
+              {/*disk 39*/"x": 530, "z": 229 },
+              {/*disk 40*/"x": 530, "z": 256 },
+            ]
+          }
+        },
+    }
+}
