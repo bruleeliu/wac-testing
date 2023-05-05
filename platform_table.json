@@ -1382,45 +1382,69 @@
                     }
                 },
                 {
-                    form_factor: "20EDSFF",
-                    form_factor_location: "front",
-                    backplane_supported_shape: {
+                    "form_factor": "20EDSFF",
+                    "form_factor_location": "front",
+                    "backplane_supported_shape": {
                         "LFF": [],
-                        "SFF": ["any"],
+                        "SFF": [
+                            "any"
+                        ],
                         "UFF": []
                     },
-                    box_capacity: [20],
-                    graphics_info: {
-                        chasis_img: "assets/images/ProLiant_DL360_Gen11/front/20EDSFF.png",
-                        disk_imgs: ["assets/images/ProLiant_DL360_Gen11/EDSFF.png"],
-                        disk_led_imgs: ["assets/images/ProLiant_DL360_Gen11/EDSFF.png"],
-                        box_disk_img: [],
-                        coordinate: {
+                    "box_capacity": [
+                        20
+                    ],
+                    "graphics_info": {
+                        "chasis_img": "assets/images/ProLiant_DL360_Gen11/front/20EDSFF.png",
+                        "disk_imgs": [
+                            "assets/images/ProLiant_DL360_Gen11/EDSFF.png"
+                        ],
+                        "disk_led_imgs": [
+                            "assets/images/ProLiant_DL360_Gen11/EDSFF.png"
+                        ],
+                        "box_disk_img": [],
+                        "coordinate": {
                             "1": [
-                                {x: 34, z: 5 },
-                                {x: 34, z: 16 },
-                                {x: 34, z: 27 },
-                                {x: 34, z: 38 },
-                                
-                                {x: 137, z: 5 },
-                                {x: 137, z: 16 },
-                                {x: 137, z: 27 },
-                                {x: 137, z: 38 },
-
-                                {x: 238, z: 5 },
-                                {x: 238, z: 16 },
-                                {x: 238, z: 27 },
-                                {x: 238, z: 38 },
-                                
-                                {x: 338, z: 5 },
-                                {x: 338, z: 16 },
-                                {x: 338, z: 27 },
-                                {x: 338, z: 38 },
-                                
-                                {x: 440, z: 5 },
-                                {x: 440, z: 16 },
-                                {x: 440, z: 27 },
-                                {x: 440, z: 38 },
+                                {"x": 34, "z": 5
+                                },
+                                {"x": 34, "z": 16
+                                },
+                                {"x": 34, "z": 27
+                                },
+                                {"x": 34, "z": 38
+                                },
+                                {"x": 137, "z": 5
+                                },
+                                {"x": 137, "z": 16
+                                },
+                                {"x": 137, "z": 27
+                                },
+                                {"x": 137, "z": 38
+                                },
+                                {"x": 238, "z": 5
+                                },
+                                {"x": 238, "z": 16
+                                },
+                                {"x": 238, "z": 27
+                                },
+                                {"x": 238, "z": 38
+                                },
+                                {"x": 338, "z": 5
+                                },
+                                {"x": 338, "z": 16
+                                },
+                                {"x": 338, "z": 27
+                                },
+                                {"x": 338, "z": 38
+                                },
+                                {"x": 440, "z": 5
+                                },
+                                {"x": 440, "z": 16
+                                },
+                                {"x": 440, "z": 27
+                                },
+                                {"x": 440, "z": 38
+                                }
                             ]
                         }
                     }
