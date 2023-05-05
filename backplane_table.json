@@ -1146,9 +1146,9 @@
         "nvram_id": "0x0148",
         "nvram_name": "20 E3S 32G x4NVMe UBM5 EC BP (1U)",
         "location": ["front"],
-        "form_factor": "",
+        "form_factor": "SFF",
         "shape": "",
-        "number_of_drives": 0
+        "number_of_drives": 20
     }, {
         "nvram_id": "0x0149",
         "nvram_name": "10 SFF 32G24G x4NVMe UBM4 BC BP",
@@ -1232,14 +1232,14 @@
         "location": ["front"],
         "form_factor": "",
         "shape": "",
-        "number_of_drives": 0
+        "number_of_drives": 12
     }, {
         "nvram_id": "0x0155",
         "nvram_name": "8 E3S 32G x4NVMe UBM5 EC BP",
         "location": ["front"],
         "form_factor": "",
         "shape": "",
-        "number_of_drives": 0
+        "number_of_drives": 8
     }, {
         "nvram_id": "0x0156",
         "nvram_name": "6 SFF 32G24G x4NVMe UBM4 BC BP",
@@ -1267,21 +1267,21 @@
         "location": ["front"],
         "form_factor": "",
         "shape": "",
-        "number_of_drives": 0
+        "number_of_drives": 1
     }, {
         "nvram_id": "0x015A",
         "nvram_name": "24 E3L 16G x2NVME UBM20 EC BP",
         "location": ["front"],
         "form_factor": "",
         "shape": "",
-        "number_of_drives": 0
+        "number_of_drives": 24
     }, {
         "nvram_id": "0x015B",
         "nvram_name": "8 E3S 32G x4NVMe UBM5 EC BP",
         "location": ["front"],
         "form_factor": "",
         "shape": "",
-        "number_of_drives": 0
+        "number_of_drives": 8
     }, {
         "nvram_id": "0x015C",
         "nvram_name": "8 SFF 12G x1SAS UBM6 BC BP",
@@ -1407,7 +1407,7 @@
         "location": ["front"],
         "form_factor": "",
         "shape": "",
-        "number_of_drives": 0
+        "number_of_drives": 8
     }, {
         "nvram_id": "0x016E",
         "nvram_name": "4 SFF 16G x4NVMe UBM6 BC BP",
@@ -1421,28 +1421,28 @@
         "location": ["front"],
         "form_factor": "",
         "shape": "",
-        "number_of_drives": 0
+        "number_of_drives": 8
     }, {
         "nvram_id": "0x0170",
         "nvram_name": "12 E3S 32G x4NVMe UBM7 EC BP",
         "location": ["front"],
         "form_factor": "",
         "shape": "",
-        "number_of_drives": 0
+        "number_of_drives": 12
     }, {
         "nvram_id": "0x0171",
         "nvram_name": "20 E3S 32G x4NVMe UBM7 EC BP",
         "location": ["front"],
-        "form_factor": "",
+        "form_factor": "SFF",
         "shape": "",
-        "number_of_drives": 0
+        "number_of_drives": 20
     }, {
         "nvram_id": "0x0172",
         "nvram_name": "8 E3S 32G x4NVMe UBM7 EC BP",
         "location": ["front"],
         "form_factor": "",
         "shape": "",
-        "number_of_drives": 0
+        "number_of_drives": 8
     }, {
         "nvram_id": "0x0173",
         "nvram_name": "12 LFF 24G x1SAS UBM6 LP BP",
@@ -1456,7 +1456,7 @@
         "location": ["front"],
         "form_factor": "",
         "shape": "",
-        "number_of_drives": 0
+        "number_of_drives": 30
     }, {
         "nvram_id": "0x0175",
         "nvram_name": "8 SFF 24G x4NVMe/SAS UBM6 BC BP",
