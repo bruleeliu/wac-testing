@@ -1395,12 +1395,12 @@
                         20
                     ],
                     "graphics_info": {
-                        "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen11/front/20EDSFF.png",
+                        "chasis_img": "assets/images/ProLiant_DL360_Gen11/front/20EDSFF.png",
                         "disk_imgs": [
-                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen11/EDSFF.png"
+                            "assets/images/ProLiant_DL360_Gen11/EDSFF.png"
                         ],
                         "disk_led_imgs": [
-                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen11/EDSFF_LED.png"
+                            "assets/images/ProLiant_DL360_Gen11/EDSFF_LED.png"
                         ],
                         "box_disk_img": [],
                         "coordinate": {
