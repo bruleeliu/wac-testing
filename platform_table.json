@@ -3171,12 +3171,12 @@
                         20
                     ],
                     "graphics_info": {
-                        "chasis_img": "assets/images/Alletra_4110/front/20EDSFF.png",
+                        "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/Alletra_4110/front/20EDSFF.png",
                         "disk_imgs": [
-                            "assets/images/Alletra_4110/EDSFF.png"
+                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/Alletra_4110/EDSFF.png"
                         ],
                         "disk_led_imgs": [
-                            "assets/images/Alletra_4110/EDSFF_LED.pn"
+                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/Alletra_4110/EDSFF_LED.pn"
                         ],
                         "box_disk_img": [],
                         "coordinate": {
@@ -3279,12 +3279,12 @@
                         20
                     ],
                     "graphics_info": {
-                        "chasis_img": "assets/images/Alletra_4110/front/20SFF.png",
+                        "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/Alletra_4110/front/20SFF.png",
                         "disk_imgs": [
-                            "assets/images/Alletra_4110/SFF.png"
+                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/Alletra_4110/SFF.png"
                         ],
                         "disk_led_imgs": [
-                            "assets/images/Alletra_4110/SFF_LED.pn"
+                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/Alletra_4110/SFF_LED.pn"
                         ],
                         "box_disk_img": [],
                         "coordinate": {
