@@ -1485,5 +1485,33 @@
         "form_factor": "LFF",
         "shape": "",
         "number_of_drives": 13
+    }, {
+        "nvram_id": "0x0179",
+        "nvram_name": "2 SFF 24G x4NVMe/SAS UBM3 BC BP",
+        "location": ["front"],
+        "form_factor": "SFF",
+        "shape": "",
+        "number_of_drives": 2
+    }, {
+        "nvram_id": "0x017A",
+        "nvram_name": "8 SFF 24G x4NVMe/SAS UBM3 BC BP",
+        "location": ["front"],
+        "form_factor": "SFF",
+        "shape": "",
+        "number_of_drives": 8
+    }, {
+        "nvram_id": "0x017B",
+        "nvram_name": "8 SFF 24G x4NVMe/SAS UBM6 BC BP",
+        "location": ["front"],
+        "form_factor": "SFF",
+        "shape": "",
+        "number_of_drives": 8
+    }, {
+        "nvram_id": "0x017C",
+        "nvram_name": "2 SFF 24G x4NVMe/SAS UBM6 BC BP",
+        "location": ["front"],
+        "form_factor": "SFF",
+        "shape": "",
+        "number_of_drives": 2
     }
 ]
