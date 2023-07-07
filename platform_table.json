@@ -1128,8 +1128,7 @@
     },
     {
         "platform_name_keywords": [
-            "DL360 Gen10",
-            "DL360 Gen11"
+            "DL360 Gen10"
         ],
         "platform_details": {
             "all_form_factors": [
@@ -1382,6 +1381,253 @@
                     }
                 },
                 {
+                    "form_factor": "1SFF",
+                    "form_factor_location": "rear",
+                    "backplane_supported_shape": {
+                        "LFF": [],
+                        "SFF": [
+                            "any",
+                            "1x1"
+                        ],
+                        "UFF": []
+                    },
+                    "box_capacity": [
+                        1
+                    ],
+                    "graphics_info": {
+                        "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/rear/1SFF.png",
+                        "disk_imgs": [
+                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/SAS_rear.png"
+                        ],
+                        "disk_led_imgs": [
+                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/SAS_rear_LED.png"
+                        ],
+                        "box_disk_img": [],
+                        "coordinate": {
+                            "2": [
+                                {
+                                    "x": 18,
+                                    "z": 3
+                                }
+                            ],
+                            "3": [
+                                {
+                                    "x": 18,
+                                    "z": 3
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "box_location": {
+                "4LFF": {
+                    "1": "front",
+                    "2": "rear"
+                },
+                "8SFF": {
+                    "1": "front",
+                    "2": "rear"
+                },
+                "8SFF_2SFF": {
+                    "1": "front",
+                    "2": "front",
+                    "3": "rear"
+                },
+                "10SFF": {
+                    "1": "front",
+                    "2": "rear"
+                }
+            },
+            "box_virtual_id": {}
+        }
+    },
+    {
+        "platform_name_keywords": [
+            "DL360 Gen11"
+        ],
+        "platform_details": {
+            "all_form_factors": [
+                {
+                    "form_factor": "4LFF",
+                    "form_factor_location": "front",
+                    "backplane_supported_shape": {
+                        "LFF": [
+                            "any",
+                            "1x4"
+                        ],
+                        "SFF": [],
+                        "UFF": []
+                    },
+                    "box_capacity": [
+                        4
+                    ],
+                    "graphics_info": {
+                        "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/front/4LFF.png",
+                        "disk_imgs": [
+                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/Disk_LFF.png"
+                        ],
+                        "disk_led_imgs": [
+                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/Disk_LFF_LED.png"
+                        ],
+                        "box_disk_img": [],
+                        "coordinate": {
+                            "1": [
+                                {
+                                    "x": 30,
+                                    "z": 14
+                                },
+                                {
+                                    "x": 129,
+                                    "z": 14
+                                },
+                                {
+                                    "x": 228,
+                                    "z": 14
+                                },
+                                {
+                                    "x": 327,
+                                    "z": 14
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "form_factor": "8SFF",
+                    "form_factor_location": "front",
+                    "backplane_supported_shape": {
+                        "LFF": [],
+                        "SFF": [
+                            "any",
+                            "2x3+2"
+                        ],
+                        "UFF": []
+                    },
+                    "box_capacity": [
+                        8
+                    ],
+                    "graphics_info": {
+                        "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/front/8.png",
+                        "disk_imgs": [
+                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/SAS.png"
+                        ],
+                        "disk_led_imgs": [
+                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/SAS_LED.png"
+                        ],
+                        "box_disk_img": [],
+                        "coordinate": {
+                            "1": [
+                                {
+                                    "x": 32,
+                                    "z": 7
+                                },
+                                {
+                                    "x": 32,
+                                    "z": 24
+                                },
+                                {
+                                    "x": 107,
+                                    "z": 7
+                                },
+                                {
+                                    "x": 107,
+                                    "z": 24
+                                },
+                                {
+                                    "x": 182,
+                                    "z": 7
+                                },
+                                {
+                                    "x": 182,
+                                    "z": 24
+                                },
+                                {
+                                    "x": 257,
+                                    "z": 24
+                                },
+                                {
+                                    "x": 332,
+                                    "z": 24
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "form_factor": "8SFF_2SFF",
+                    "form_factor_location": "front",
+                    "backplane_supported_shape": {
+                        "LFF": [],
+                        "SFF": [
+                            "any",
+                            "2x3+2",
+                            "1x2"
+                        ],
+                        "UFF": []
+                    },
+                    "box_capacity": [
+                        8,
+                        2
+                    ],
+                    "graphics_info": {
+                        "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/front/8+2SFF.png",
+                        "disk_imgs": [
+                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/SAS.png"
+                        ],
+                        "disk_led_imgs": [
+                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/SAS_LED.png"
+                        ],
+                        "box_disk_img": [],
+                        "coordinate": {
+                            "1": [
+                                {
+                                    "x": 32,
+                                    "z": 7
+                                },
+                                {
+                                    "x": 32,
+                                    "z": 24
+                                },
+                                {
+                                    "x": 107,
+                                    "z": 7
+                                },
+                                {
+                                    "x": 107,
+                                    "z": 24
+                                },
+                                {
+                                    "x": 182,
+                                    "z": 7
+                                },
+                                {
+                                    "x": 182,
+                                    "z": 24
+                                },
+                                {
+                                    "x": 257,
+                                    "z": 24
+                                },
+                                {
+                                    "x": 332,
+                                    "z": 24
+                                }
+                            ],
+                            "2": [
+                                {
+                                    "x": 257,
+                                    "z": 7
+                                },
+                                {
+                                    "x": 332,
+                                    "z": 7
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
                     "form_factor": "20EDSFF",
                     "form_factor_location": "front",
                     "backplane_supported_shape": {
@@ -1488,64 +1734,19 @@
                             ]
                         }
                     }
-                },
-                {
-                    "form_factor": "1SFF",
-                    "form_factor_location": "rear",
-                    "backplane_supported_shape": {
-                        "LFF": [],
-                        "SFF": [
-                            "any",
-                            "1x1"
-                        ],
-                        "UFF": []
-                    },
-                    "box_capacity": [
-                        1
-                    ],
-                    "graphics_info": {
-                        "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/rear/1SFF.png",
-                        "disk_imgs": [
-                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/SAS_rear.png"
-                        ],
-                        "disk_led_imgs": [
-                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/SAS_rear_LED.png"
-                        ],
-                        "box_disk_img": [],
-                        "coordinate": {
-                            "2": [
-                                {
-                                    "x": 18,
-                                    "z": 3
-                                }
-                            ],
-                            "3": [
-                                {
-                                    "x": 18,
-                                    "z": 3
-                                }
-                            ]
-                        }
-                    }
                 }
             ],
             "box_location": {
                 "4LFF": {
-                    "1": "front",
-                    "2": "rear"
+                    "1": "front"
                 },
                 "8SFF": {
                     "1": "front",
-                    "2": "rear"
+                    "2": "front"
                 },
                 "8SFF_2SFF": {
                     "1": "front",
-                    "2": "front",
-                    "3": "rear"
-                },
-                "10SFF": {
-                    "1": "front",
-                    "2": "rear"
+                    "2": "front"
                 },
                 "20EDSFF": {
                     "1": "front"
