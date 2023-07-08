@@ -1641,12 +1641,12 @@
                         20
                     ],
                     "graphics_info": {
-                        "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen11/front/20EDSFF.png",
+                        "chasis_img": "assets/images/ProLiant_DL360_Gen11/front/20EDSFF.png",
                         "disk_imgs": [
-                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen11/EDSFF.png"
+                            "assets/images/ProLiant_DL360_Gen11/EDSFF.png"
                         ],
                         "disk_led_imgs": [
-                            "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen11/EDSFF_LED.png"
+                            "assets/images/ProLiant_DL360_Gen11/EDSFF_LED.png"
                         ],
                         "box_disk_img": [],
                         "coordinate": {
@@ -1781,7 +1781,7 @@
                         4
                     ],
                     "graphics_info": {
-                        "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL385_Gen11/front/8LFF_2SFF.png",
+                        "chasis_img": "assets/images/ProLiant_DL385_Gen11/front/8LFF_2SFF.png",
                         "disk_imgs": [
                             "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/Disk_LFF.png"
                         ],
@@ -1856,7 +1856,7 @@
                         4
                     ],
                     "graphics_info": {
-                        "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL385_Gen11/front/12LFF.png",
+                        "chasis_img": "assets/images/ProLiant_DL385_Gen11/front/12LFF.png",
                         "disk_imgs": [
                             "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/Disk_LFF.png"
                         ],
@@ -1939,7 +1939,7 @@
                         8
                     ],
                     "graphics_info": {
-                        "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL385_Gen11/front/24SFF.png",
+                        "chasis_img": "assets/images/ProLiant_DL385_Gen11/front/24SFF.png",
                         "disk_imgs": [
                             "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/Disk_SFF.png"
                         ],
@@ -2071,7 +2071,7 @@
                         8
                     ],
                     "graphics_info": {
-                        "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL385_Gen11/front/16SFF_2NVMe.png",
+                        "chasis_img": "assets/images/ProLiant_DL385_Gen11/front/16SFF_2NVMe.png",
                         "disk_imgs": [
                             "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/Disk_SFF.png",
                             "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/Disk_horizontal_SFF.png"
@@ -2184,7 +2184,7 @@
                         2
                     ],
                     "graphics_info": {
-                        "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL385_Gen11/rear/2SFF.png",
+                        "chasis_img": "assets/images/ProLiant_DL385_Gen11/rear/2SFF.png",
                         "disk_imgs": [
                             "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/Disk_SFF.png"
                         ],
@@ -2220,7 +2220,7 @@
                         4
                     ],
                     "graphics_info": {
-                        "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL385_Gen11/rear/4LFF.png",
+                        "chasis_img": "assets/images/ProLiant_DL385_Gen11/rear/4LFF.png",
                         "disk_imgs": [
                             "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/Disk_LFF.png"
                         ],
