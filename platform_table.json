@@ -1359,7 +1359,7 @@
                     8
                 ],
                 "graphics_info": {
-                    "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/front/8.png",
+                    "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/front/8SFF.png",
                     "disk_imgs": [
                         "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/SAS.png"
                     ],
@@ -1630,7 +1630,8 @@
     },
     {
         "platform_name_keywords": [
-            "DL360 Gen11"
+            "DL360 Gen11",
+            "DL365 Gen11"
         ],
         "platform_details": [
             {
@@ -1699,7 +1700,7 @@
                     8
                 ],
                 "graphics_info": {
-                    "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/front/8.png",
+                    "chasis_img": "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/front/8SFF.png",
                     "disk_imgs": [
                         "https://raw.githubusercontent.com/HewlettPackard/hpe-wac-extensions/master/assets/images/ProLiant_DL360_Gen10/SAS.png"
                     ],
